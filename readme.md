@@ -8,6 +8,7 @@
 - [Run Methods Order in Python with More Explanation](./run_methods_order_in_python_with_more_explanation.py)
 - [Invisible Metaclasses in Python](./invisible_metaclasses_in_python.py)
 - [Meta Classes without type](./meta_classes_without_type.py)
+- [More Accurate Meta Classes without type](./more_accurate_meta_classes_without_type.py)
 
 ### Examples
 - [Register Classes in Python](./register_classes_in_python.py)

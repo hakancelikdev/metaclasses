@@ -1,13 +1,13 @@
 class Meta(type):
-    _instances = []
+    _names = []
 
     def __new__(mcs, name, bases, namespace, **kwargs):
-        instance = super().__new__(mcs, name, bases, namespace)
+        obj = super().__new__(mcs, name, bases, namespace)
         if not [b for b in bases if isinstance(b, mcs)]:  # mcs is a Base
-            return instance
+            return obj
 
-        mcs._instances.append(name)
-        return instance
+        mcs._names.append(name)
+        return obj
 
 
 class Base(metaclass=Meta):
@@ -22,18 +22,18 @@ class Example2(Base):
     pass
 
 
-assert Example._instances == ["Example", "Example2"]
-assert Example2._instances == ["Example", "Example2"]
+assert Example._names == ["Example", "Example2"]
+assert Example2._names == ["Example", "Example2"]
 
 # -------
 
 
 class Base:
-    _instances = []
+    _names = []
 
     def __init_subclass__(cls, **kwargs):
         super().__init_subclass__(**kwargs)
-        cls._instances.append(cls.__name__)
+        cls._names.append(cls.__name__)
 
 
 class Example(Base):
@@ -44,17 +44,17 @@ class Example2(Base):
     pass
 
 
-assert Example._instances == ["Example", "Example2"]
-assert Example2._instances == ["Example", "Example2"]
+assert Example._names == ["Example", "Example2"]
+assert Example2._names == ["Example", "Example2"]
 
 
 # -------
 
 def decorator(cls):
-    if hasattr(cls, "_instances"):
-        cls._instances.append(cls.__name__)
+    if hasattr(cls, "_names"):
+        cls._names.append(cls.__name__)
     else:
-        cls._instances = []
+        cls._names = []
 
     return cls
 
@@ -74,5 +74,5 @@ class Example2(Base):
     pass
 
 
-assert Example._instances == ["Example", "Example2"]
-assert Example2._instances == ["Example", "Example2"]
+assert Example._names == ["Example", "Example2"]
+assert Example2._names == ["Example", "Example2"]
