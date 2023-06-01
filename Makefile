@@ -3,7 +3,7 @@ all: lint clean
 .PHONY: dev
 dev:
 	python3.10 -m venv venv
-	source venv/bin/activate; pip install pip -U; pip install pre-commit
+	source venv/bin/activate; pip install pip -U; pip install -r requirements.txt
 
 .PHONY: lint
 lint:
@@ -25,6 +25,10 @@ clean:
 	rm -f .coverage.*
 	rm -rf .tox
 	rm -rf build
+
+.PHONY: docs
+docs:
+	source venv/bin/activate; mkdocs serve
 
 .PHONY: push
 push:

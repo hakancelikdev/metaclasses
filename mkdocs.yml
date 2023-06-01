@@ -1,0 +1,136 @@
+site_name: Hakan Çelik | Metaclasses in Python
+site_description: Hakan Çelik - Software Engineer at DeepInfo.
+site_url: https://metaclasses.hakancelik.dev
+
+repo_url: https://github.com/hakancelikdev/metaclasses
+repo_name: hakancelikdev/metaclasses
+edit_uri: https://github.com/hakancelikdev/metaclasses/tree/main/docs
+
+copyright: Copyright &copy; 2023 - 2023 Hakan Çelik
+
+markdown_extensions:
+  - fenced_code
+  - footnotes
+  - tables
+  - codehilite
+  - legacy_em
+  - meta
+  - sane_lists
+  - smarty
+  - toc:
+      permalink: true
+      baselevel: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      prebuild_index: true
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+
+extra:
+  analytics:
+    provider: google
+    property: G-2EGM5WWEED
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well as to
+      measure the effectiveness of our documentation and whether users find what they're
+      searching for. With your consent, you're helping us to make our documentation
+      better.
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/hakancelikdev
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hakancelikdev
+    - icon: fontawesome/solid/globe
+      link: https://hakancelik.dev
+  homepage: https://metaclasses.hakancelik.dev
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: "assets/images/profile.png"
+  favicon: "assets/images/profile.png"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - navigation.top
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Noto Sans
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Overview: index.md
+  - Metaclasses:
+      - tutorial/understanding-python-classes.md
+      - tutorial/dynamic-class-creation.md
+      - tutorial/more-accurate-dynamic-class-creation.md
+      - tutorial/metaclasses-in-python.md
+      - tutorial/run-methods-order-in-python.md
+      - tutorial/run-methods-order-in-python-with-more-explanation.md
+      - tutorial/invisible-metaclasses-in-python.md
+      - tutorial/meta-classes-without-type.md
+      - tutorial/more-accurate-meta-classes-without-type.md
+  - Examples:
+      - examples/register_classes_in_python.py
+      - examples/singleton_in_python.py
+      - examples/auto_slots.py
+      - examples/logging_namespace.py
+      - examples/modeling_a_class_with_a_metaclass.py
+      - examples/define_method_if_condition_true.py
