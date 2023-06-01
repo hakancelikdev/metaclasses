@@ -1,3 +1,6 @@
+> Let's add an intermediate layer to the class creation phase.
+
+```python
 class Meta(type):
     pass
 
@@ -17,20 +20,12 @@ print(f"{Example().__class__=}")  # <class '__main__.Example'>
 print(f"{Example().attr=}")        # 1
 print(f"{Example().method()=}")    # 'method'
 
+```
 
-"""# noqa
-            type   ( instance of type )
-             |
-             |
-			Meta    ( instance of type )
-			 |
-			 |
-		   Example  ( instance of Meta )
-		     |
-			 |
-		  Example() ( instance of Example )
-"""
+![](../media/metaclasses-in-python.png)
 
+```python
 assert isinstance(Meta, type)
 assert isinstance(Example, Meta)
 assert isinstance(Example(), Example)
+```

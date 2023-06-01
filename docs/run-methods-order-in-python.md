@@ -1,3 +1,4 @@
+```python
 class Meta(type):
     @classmethod
     def __prepare__(mcs, cls_name, bases, **kwargs):  # default, staticmethod
@@ -37,3 +38,4 @@ class Example(Base, metaclass=Meta):  # Order: Meta.__prepare__, Meta.__new__, M
 
 base = Example()             # Meta.__call__, Example.__new__, Example.__init__
 base()                       # Example.__call__
+```

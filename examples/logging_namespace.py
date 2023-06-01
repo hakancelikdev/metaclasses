@@ -17,4 +17,3 @@ class C(metaclass=Meta):
 
     def __int__(self):
         pass
-

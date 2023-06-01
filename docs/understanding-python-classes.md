@@ -1,8 +1,6 @@
-"""
-Every object in python has a type, and type(obj) == obj.__class__
-"""
+> Every object in python has a type, and type(obj) == obj.**class**
 
-
+```python
 class Example:
 	attr = 1
 
@@ -21,16 +19,11 @@ print(f"{type(type(type))=}")      # <class 'type'>
 
 print(f"{Example().__class__=}")   # <class '__main__.Example'>
 
+```
 
-"""# noqa
-			type    ( instance of type )
-			 |
-			 |
-		   Example  ( instance of type )
-		     |
-			 |
-		  Example() ( instance of Example )
-"""
+![](../media/understanding-python-classes.png)
 
+```python
 assert isinstance(Example, type)
 assert isinstance(Example(), Example)
+```

@@ -1,3 +1,4 @@
+```python
 class Meta:
     def __prepare__(name, bases, **kwargs):
         return dict()
@@ -19,10 +20,10 @@ class Meta:
     def __call__(self, *args, **kwargs):
         if not self.__call_run:
             self.__call_run = True
-        
+
             cls_new = self.namespace["__new__"]
             cls_init = self.namespace["__init__"]
-            
+
             obj = cls_new(self, *args, **kwargs)
             cls_init(obj, *args, **kwargs)
         else:
@@ -90,3 +91,4 @@ klass = Klass(1, a=1)
 klass(deneme=3)
 
 print(klass)
+```

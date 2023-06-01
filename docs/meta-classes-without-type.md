@@ -1,3 +1,4 @@
+```python
 class Meta:  # this class is a normal class, Meta = instance of type, Only the Meta class does not contain the properties of the type.  # noqa
     @classmethod
     def __prepare__(mcs, cls_name, bases):  # default, staticmethod
@@ -89,3 +90,4 @@ class Example(K, metaclass=Meta):  # Order: Meta.__prepare__, Meta.__new__, Meta
 
 base = Example(1, 2, c=3)             # Meta.__call__
 base(1, k=1)                          # Meta.__call__
+```

@@ -1,28 +1,27 @@
 ## Metaclasses
 
-- [Understanding Python Classes](./understanding_python_classes.py)
-- [Dynamic Class Creation](./dynamic_class_creation.py)
-- [More Accurate Dynamic Class Creation](./more_accurate_dynamic_class_creation.py)
-- [Metaclasses in Python](./metaclasses_in_python.py)
-- [Run Methods Order in Python](./run_methods_order_in_python.py)
-- [Run Methods Order in Python with More Explanation](./run_methods_order_in_python_with_more_explanation.py)
-- [Invisible Metaclasses in Python](./invisible_metaclasses_in_python.py)
-- [Meta Classes without type](./meta_classes_without_type.py)
-- [More Accurate Meta Classes without type](./more_accurate_meta_classes_without_type.py)
+- [Understanding Python Classes](./docs/understanding-python-classes.md)
+- [Dynamic Class Creation](./docs/dynamic-class-creation.md)
+- [More Accurate Dynamic Class Creation](./docs/more-accurate-dynamic-class-creation.md)
+- [Metaclasses in Python](./docs/metaclasses-in-python.md)
+- [Run Methods Order in Python](./docs/run-methods-order-in-python.md)
+- [Run Methods Order in Python with More Explanation](./docs/run-methods-order-in-python-with-more-explanation.md)
+- [Invisible Metaclasses in Python](./docs/invisible-metaclasses-in-python.md)
+- [Meta Classes without type](./docs/meta-classes-without-type.md)
+- [More Accurate Meta Classes without type](./docs/more-accurate-meta-classes-without-type.md)
 
 ### Examples
-- [Register Classes in Python](./register_classes_in_python.py)
-- [Singleton in Python](./singleton_in_python.py)
-- [Auto Slots ](./auto_slots.py)
-- [Logging Namespace](./logging_namespace.py)
-- [Modeling a Class with a Metaclass](./modeling_a_class_with_a_metaclass.py)
-- [Define Method If Condition True](./define_method_if_condition_true.py)
 
-
+- [Register Classes in Python](./examples/register_classes_in_python.py)
+- [Singleton in Python](./examples/singleton_in_python.py)
+- [Auto Slots ](./examples/auto_slots.py)
+- [Logging Namespace](./examples/logging_namespace.py)
+- [Modeling a Class with a Metaclass](./examples/modeling_a_class_with_a_metaclass.py)
+- [Define Method If Condition True](./examples/define_method_if_condition_true.py)
 
 Example on CPython
 
-```python
+```shell
 >>> import enum
 >>> enum.Enum
 
@@ -53,6 +52,6 @@ Example on 3.party libs
 - https://jfreeman.dev/blog/2020/12/07/python-metaclasses/
 - https://peps.python.org/pep-3115/
 
-
 ## CPython Implementation
+
 - https://github.com/python/cpython/blob/main/Python/bltinmodule.c#L89

@@ -1,11 +1,10 @@
-"""
+```python
 class K(metaclass=type):
     pass
 
 
 class Example(K, metaclass=type):
     pass
-"""
 
 
 class K:
@@ -14,4 +13,4 @@ class K:
 
 class Example(K):
     pass
-
+```
