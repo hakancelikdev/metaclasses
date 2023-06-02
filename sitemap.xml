@@ -50,4 +50,34 @@
          <lastmod>2023-06-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://metaclasses.hakancelik.dev/tutorial/examples/auto-slots/</loc>
+         <lastmod>2023-06-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://metaclasses.hakancelik.dev/tutorial/examples/define-method-if-condition-true/</loc>
+         <lastmod>2023-06-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://metaclasses.hakancelik.dev/tutorial/examples/logging-namespace/</loc>
+         <lastmod>2023-06-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://metaclasses.hakancelik.dev/tutorial/examples/modeling-a-lass-with-a-metaclass/</loc>
+         <lastmod>2023-06-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://metaclasses.hakancelik.dev/tutorial/examples/register-classes-in-python/</loc>
+         <lastmod>2023-06-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://metaclasses.hakancelik.dev/tutorial/examples/singleton-in-python/</loc>
+         <lastmod>2023-06-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
