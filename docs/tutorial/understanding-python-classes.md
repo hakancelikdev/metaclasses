@@ -1,3 +1,5 @@
+![](../media/understanding-python-classes.png)
+
 > Every object in python has a type, and type(obj) == obj.**class**
 
 ```python
@@ -19,11 +21,7 @@ print(f"{type(type(type))=}")      # <class 'type'>
 
 print(f"{Example().__class__=}")   # <class '__main__.Example'>
 
-```
 
-![](../media/understanding-python-classes.png)
-
-```python
 assert isinstance(Example, type)
 assert isinstance(Example(), Example)
 ```

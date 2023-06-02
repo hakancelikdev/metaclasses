@@ -1,3 +1,5 @@
+![](../media/understanding-python-classes.png)
+
 > Let's add an intermediate layer to the class creation phase.
 
 ```python
@@ -20,11 +22,7 @@ print(f"{Example().__class__=}")  # <class '__main__.Example'>
 print(f"{Example().attr=}")        # 1
 print(f"{Example().method()=}")    # 'method'
 
-```
 
-![](../media/metaclasses-in-python.png)
-
-```python
 assert isinstance(Meta, type)
 assert isinstance(Example, Meta)
 assert isinstance(Example(), Example)

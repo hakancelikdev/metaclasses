@@ -1,3 +1,5 @@
+![](../media/understanding-python-classes.png)
+
 > Another example of dynamic class creation
 
 ```python
@@ -30,11 +32,7 @@ Example = type(name, bases, namespace)  # type: ignore
 print(f"{Example.__class__=}")     # <class 'type'>
 print(f"{Example().attr=}")        # 1
 print(f"{Example().method()=}")    # 'method'
-```
 
-![](../media/understanding-python-classes.png)
-
-```python
 assert isinstance(Example, type)
 assert isinstance(Example(), Example)
 ```
