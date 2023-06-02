@@ -1,3 +1,4 @@
+```python
 class Meta(type):
     instance = {}
 
@@ -69,3 +70,4 @@ assert Example() is Example()
 assert Example2() is Example2()
 
 assert Example() is Example2()
+```

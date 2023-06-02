@@ -1,3 +1,4 @@
+```python
 import inspect
 import typing
 
@@ -74,3 +75,4 @@ class Example(metaclass=DefineMeta):
 
 
 assert Example().foo() is True
+```

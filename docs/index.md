@@ -12,12 +12,12 @@
 
 ### Examples
 
-- [Register Classes in Python](./examples/register_classes_in_python.py)
-- [Singleton in Python](./examples/singleton_in_python.py)
-- [Auto Slots ](./examples/auto_slots.py)
-- [Logging Namespace](./examples/logging_namespace.py)
-- [Modeling a Class with a Metaclass](./examples/modeling_a_class_with_a_metaclass.py)
-- [Define Method If Condition True](./examples/define_method_if_condition_true.py)
+- [Register Classes in Python](./docs/examples/register-classes-in-python.md)
+- [Singleton in Python](./docs/examples/singleton-in-python.md)
+- [Auto Slots ](./docs/examples/auto-slots.md)
+- [Logging Namespace](./docs/examples/logging-namespace.md)
+- [Modeling a Class with a Metaclass](./docs/examples/modeling-a-class-with-a-metaclass.md)
+- [Define Method If Condition True](./docs/examples/define_method-if-condition-true.md)
 
 Example on CPython
 

@@ -1,3 +1,4 @@
+```python
 class Meta(type):
     def __new__(mcs, name, bases, namespace, **kwargs):
         __slots__ = namespace.get("__slots__", ())
@@ -21,3 +22,4 @@ class Example(AutoSlots):
 
 assert Example.__slots__ == ("field", "keyword_field", "constant")
 assert Example("field", keyword_field=1).__dict__ == {}
+```

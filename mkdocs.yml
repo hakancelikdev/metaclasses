@@ -128,9 +128,9 @@ nav:
       - tutorial/meta-classes-without-type.md
       - tutorial/more-accurate-meta-classes-without-type.md
   - Examples:
-      - examples/register_classes_in_python.py
-      - examples/singleton_in_python.py
-      - examples/auto_slots.py
-      - examples/logging_namespace.py
-      - examples/modeling_a_class_with_a_metaclass.py
-      - examples/define_method_if_condition_true.py
+      - tutorial/examples/register-classes-in-python.md
+      - tutorial/examples/singleton-in-python.md
+      - tutorial/examples/auto-slots.md
+      - tutorial/examples/logging-namespace.md
+      - tutorial/examples/modeling-a-class-with-a-metaclass.md
+      - tutorial/examples/define-method-if-condition-true.md

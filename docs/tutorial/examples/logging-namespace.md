@@ -1,3 +1,4 @@
+```python
 class LoggingDict(dict):
     def __setitem__(self, key, value):
         print("d[%r] = %r" % (key, value))
@@ -17,3 +18,4 @@ class C(metaclass=Meta):
 
     def __int__(self):
         pass
+```

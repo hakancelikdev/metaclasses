@@ -1,3 +1,4 @@
+```python
 class Meta(type):
     def __new__(mcs, name, bases, namespace, **kwargs):
         if not [base for base in bases if isinstance(base, mcs)]:
@@ -44,3 +45,4 @@ assert account.last_name == "Çelik"
 assert account.username == "hakancelik"
 
 # Account(first_name="Hakan", last_name="Çelik", username=1)
+```

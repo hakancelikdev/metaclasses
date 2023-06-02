@@ -1,3 +1,4 @@
+```python
 class Meta(type):
     _names = []
 
@@ -76,3 +77,4 @@ class Example2(Base):
 
 assert Example._names == ["Example", "Example2"]
 assert Example2._names == ["Example", "Example2"]
+```
