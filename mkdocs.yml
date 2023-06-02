@@ -117,7 +117,7 @@ theme:
 
 nav:
   - Overview: index.md
-  - Metaclasses:
+  - Tutorial:
       - tutorial/understanding-python-classes.md
       - tutorial/dynamic-class-creation.md
       - tutorial/more-accurate-dynamic-class-creation.md
