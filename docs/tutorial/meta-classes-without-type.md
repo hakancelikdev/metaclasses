@@ -1,3 +1,5 @@
+![](../media/meta-classes-without-type.png)
+
 ```python
 class Meta:  # this class is a normal class, Meta = instance of type, Only the Meta class does not contain the properties of the type.  # noqa
     @classmethod

@@ -1,23 +1,23 @@
 ## Metaclasses
 
-- [Understanding Python Classes](./docs/understanding-python-classes.md)
-- [Dynamic Class Creation](./docs/dynamic-class-creation.md)
-- [More Accurate Dynamic Class Creation](./docs/more-accurate-dynamic-class-creation.md)
-- [Metaclasses in Python](./docs/metaclasses-in-python.md)
-- [Run Methods Order in Python](./docs/run-methods-order-in-python.md)
-- [Run Methods Order in Python with More Explanation](./docs/run-methods-order-in-python-with-more-explanation.md)
-- [Invisible Metaclasses in Python](./docs/invisible-metaclasses-in-python.md)
-- [Meta Classes without type](./docs/meta-classes-without-type.md)
-- [More Accurate Meta Classes without type](./docs/more-accurate-meta-classes-without-type.md)
+- [Understanding Python Classes](./docs/tutorial/understanding-python-classes.md)
+- [Dynamic Class Creation](./docs/tutorial/dynamic-class-creation.md)
+- [More Accurate Dynamic Class Creation](./docs/tutorial/more-accurate-dynamic-class-creation.md)
+- [Metaclasses in Python](./docs/tutorial/metaclasses-in-python.md)
+- [Run Methods Order in Python](./docs/tutorial/run-methods-order-in-python.md)
+- [Run Methods Order in Python with More Explanation](./docs/tutorial/run-methods-order-in-python-with-more-explanation.md)
+- [Invisible Metaclasses in Python](./docs/tutorial/invisible-metaclasses-in-python.md)
+- [Meta Classes without type](./docs/tutorial/meta-classes-without-type.md)
+- [More Accurate Meta Classes without type](./docs/tutorial/more-accurate-meta-classes-without-type.md)
 
 ### Examples
 
-- [Register Classes in Python](./examples/register_classes_in_python.py)
-- [Singleton in Python](./examples/singleton_in_python.py)
-- [Auto Slots ](./examples/auto_slots.py)
-- [Logging Namespace](./examples/logging_namespace.py)
-- [Modeling a Class with a Metaclass](./examples/modeling_a_class_with_a_metaclass.py)
-- [Define Method If Condition True](./examples/define_method_if_condition_true.py)
+- [Register Classes in Python](./docs/tutorial/examples/register_classes_in_python.py)
+- [Singleton in Python](./docs/tutorial/examples/singleton_in_python.py)
+- [Auto Slots ](./docs/tutorial/examples/auto_slots.py)
+- [Logging Namespace](./docs/tutorial/examples/logging_namespace.py)
+- [Modeling a Class with a Metaclass](./docs/tutorial/examples/modeling_a_class_with_a_metaclass.py)
+- [Define Method If Condition True](./docs/tutorial/examples/define_method_if_condition_true.py)
 
 Example on CPython
 

@@ -1,3 +1,5 @@
+![](../media/run-methods-order-in-python.png)
+
 ```python
 class Meta(type):
     @classmethod
